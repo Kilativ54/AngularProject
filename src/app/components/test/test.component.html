@@ -1,1 +1,9 @@
-<p>test works!</p>
+<div>
+  <p>{{ title }}</p>
+  <p>{{ getFullName() }}</p>
+
+  <div [ngStyle]="{ color: 'red' }">ngStyle</div>
+  <div [ngClass]="{ active: isActive, disabled: isDisabled }">ngClass</div>
+
+  <button [disabled]="!isEnabled">Click</button>
+</div>

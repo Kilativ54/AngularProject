@@ -1,3 +1,25 @@
 p {
   color: #9e0606;
 }
+button {
+  background-color: #9e0606;
+  color: white;
+}
+button:hover {
+  background-color: rgb(13, 21, 248);
+  color: #9e0606;
+}
+button:disabled {
+  background-color: #ebe5e5;
+  color: rgb(176, 11, 11);
+  cursor: not-allowed;
+}
+.active {
+  background-color: rgb(13, 21, 248);
+  color: #9e0606;
+}
+.disabled {
+  background-color: #ebe5e5;
+  color: rgb(176, 11, 11);
+  cursor: not-allowed;
+}
